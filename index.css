@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+button {
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    color: white;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background-color: #50A0C8;
+    border-radius: 3px;
+    width: 170px;
+    min-height: 45px;
+    border: none;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.left {
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right {
+    flex: 40%;
+    text-align: center;
+
+}
+
+.imagecom {
+    width: 440px;
+    height: 300px;
+
+}
+
+.backimage {
+    background-image: url('./assests/images/bcimagefirstsec.png');
+    background-size: cover;
+
+}
+
+.banner h5 {
+    font-family: Roboto;
+    font-weight: 600px;
+    font-style: SemiBold;
+    font-size: 18px;
+    color: #50A0C8;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.banner h2 {
+    font-family: Roboto;
+    font-weight: 500px;
+
+    font-size: 56px;
+    color: black;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.banner p {
+    color: #636363;
+    font-family: Roboto;
+    font-weight: 400px;
+    font-style: Regular;
+    font-size: 16px;
+
+    line-height: 26px;
+    letter-spacing: 0%;
+    max-width: 300px;
+
+}
+
+.sec2paragrapg {
+    text-align: center;
+}
+
+.sec2paragrapg h3 {
+    padding-top: 40px;
+
+    font-family: Roboto;
+    font-weight: 500px;
+    font-style: Medium;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0%;
+    color: #1F1F1F;
+    padding-bottom: 15px;
+}
+
+.sec2paragrapg p {
+    font-family: Roboto;
+    font-weight: 400px;
+    font-style: Regular;
+    font-size: 16px;
+
+    line-height: 26px;
+    letter-spacing: 0%;
+
+    color: #636363;
+    max-width: 970px;
+    padding-bottom: 40px;
+
+}
