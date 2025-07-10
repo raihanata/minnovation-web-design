@@ -143,9 +143,154 @@ button {
 
     line-height: 26px;
     letter-spacing: 0%;
-
+    text-align: center;
     color: #636363;
     max-width: 970px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+padding-left: 30px;
+}
 
+
+.grid1 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.grid1 .grid1divs {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid #50A0C84D;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 0px #50A0C84D;
+   
+}
+
+
+.image-wrapper{
+  background-color: #F6F6F6;
+   max-height: 190px;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  
+}
+.grid1 h5 {
+    font-family: Roboto;
+    font-weight: 600px;
+    font-style: SemiBold;
+    font-size: 20px;
+    text-align: center;
+padding-top: 20px;
+    letter-spacing: 0%;
+   padding-bottom: 20px;
+}
+
+.grid1 p {
+    font-family: Roboto;
+    font-weight: 400px;
+    font-style: Regular;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #636363;
+    padding: 10px 5px 30px 5px;
+}
+
+.grid1 button {
+    font-family: Roboto;
+    font-weight: 500px;
+    font-style: Medium;
+    font-size: 16px;
+    color: white;
+    background-color: #50A0C8;
+
+}
+.sec4{
+    background-color: #F6F6F6;
+    padding-bottom: 30px;
+}
+
+.sec4 > h2:first-child{
+font-family: Roboto;
+font-weight: 600px;
+font-style: SemiBold;
+font-size: 32px;
+color: #1F1F1F;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+padding: 30px 0px 10px 0px
+}
+.sec4 > p:nth-child(2){
+    font-family: Roboto;
+font-weight: 400px;
+font-style: Regular;
+font-size: 16px;
+color: #636363;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+padding:20px 50px 30px 50px;
+
+}
+.grid2 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+ padding: 0px 30px 0px 30px;
+ margin-bottom: 30px;
+}
+.grid2 .grid2divs {
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+   background-color: white;
+    /* padding-bottom: 30px; */
+    border-radius: 10px;
+ 
+   padding: 0px 20px 0px 20px;
+}
+.grid2 h5{
+    font-family: Roboto;
+font-weight: 500px;
+font-style: Medium;
+font-size: 18px;
+color: #1F1F1F;
+line-height: 28px;
+letter-spacing: 0%;
+padding: 20px 0px 15px 0px;
+}
+.grid2 h6{
+    font-family: Roboto;
+font-weight: 400px;
+font-style: Regular;
+font-size: 18px;
+color: #50A0C8;
+line-height: 28px;
+letter-spacing: 0%;
+padding-bottom: 20px;
+
+}
+.grid2 p{
+    font-family: Roboto;
+font-weight: 400px;
+font-style: Regular;
+font-size: 16px;
+color: #636363;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: justify;
+
+}
+.btnsec4{
+margin-left:40% 
 }
